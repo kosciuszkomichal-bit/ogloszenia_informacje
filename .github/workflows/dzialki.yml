@@ -1,10 +1,5 @@
 name: Pobieranie działek
 
-on:
-  schedule:
-    - cron: "0 9 * * 1"   # w każdy poniedziałek o 9:00
-  workflow_dispatch:       # pozwala uruchomić ręcznie
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
