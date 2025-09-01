@@ -1,8 +1,6 @@
 name: Sprawdzanie działek
 
 on:
-  schedule:
-    - cron: '0 8 * * 1,4'  # Poniedziałek i czwartek o 8:00
   workflow_dispatch:
 
 jobs:
